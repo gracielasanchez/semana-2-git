@@ -1,0 +1,13 @@
+¿Cómo ves los archivos cambiados dentro de cada commit desde el registro de git?
+Con el comando get status, podremos observar los archivos que han sido cambiados usando el comando commit
+
+¿Cómo ve el contenido de lo que cambió dentro de cada archivo del registro de git?
+Una vez que realicemos el commit podremos visualizar el cambio, pero si deseamos visualizar los archivos que hemos cambiado podemos usar el comando diff: 
+ get diff
+    get diff --staged
+    get diff HEAD
+Mostrará los últimos cambios que se realice con <em>commit</em> 
+
+¿A qué se refiere HEAD en el contexto de git? 
+
+HEAD es solo otro nombre para el commit más reciente.   Este compara el árbol de trabajo con el commit principal.
